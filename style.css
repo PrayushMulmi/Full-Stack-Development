@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #1a0129;
+  background-color: #470047;
   color: white;
   margin: 0;
 }
@@ -19,7 +19,8 @@ body {
 .iah,
 .contact-me,
 .student,
-.bar {
+.bar,
+.resume {
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -31,17 +32,30 @@ body {
 }
 .bar {
   margin-left: 20px;
+  margin-top: 5px;
   color: rgba(190, 189, 189, 0.744);
   font-size: 20px;
 }
 .name {
   font-size: 35px;
   padding-top: 10px;
+}
+.resume a {
+  text-decoration: none;
+  color: white;
+}
+.resume a:visited,
+.resume a:active {
+  text-decoration: none;
+}
+
+.resume a:hover {
   color: #7338a0;
 }
+
 .home {
   display: inline-block;
-  margin-left: 170px;
+  margin-left: 100px;
   padding: 0 10;
   height: fit-content;
   width: min-content;
@@ -51,8 +65,12 @@ body {
 .education:hover,
 .iah:hover,
 .contact-me:hover,
-.student:hover {
+.resume:hover {
   color: #7338a0;
+  cursor: pointer;
+}
+.student:hover {
+  color: rgb(0, 165, 0);
   cursor: pointer;
 }
 .main-section,
@@ -114,7 +132,7 @@ body {
   font-size: small;
 }
 .education-section {
-  margin-top: 45px;
+  margin-top: 150px;
   justify-items: center;
 }
 td,
@@ -125,8 +143,9 @@ tr {
   border-collapse: collapse;
   text-align: left;
   width: fit-content;
-  padding: 20px;
+  padding: 30px;
   color: white;
+  text-align: center;
 }
 
 .school1,
