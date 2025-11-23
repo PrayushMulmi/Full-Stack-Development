@@ -53,9 +53,23 @@ body {
   color: #7338a0;
 }
 
+.contact-me > a > span {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.contact-me a:hover span {
+  background-color: white;
+  color: #470047;
+  transform: translateY(-5px); /* ONLY the text moves */
+}
+
 .home {
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 350px;
   padding: 0 10;
   height: fit-content;
   width: min-content;
@@ -78,7 +92,7 @@ body {
 .iah-section,
 .contactme-section,
 .footer-section {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   display: inline-block;
   height: fit-content(50%);
   width: 100%;
@@ -132,7 +146,7 @@ body {
   font-size: small;
 }
 .education-section {
-  margin-top: 150px;
+  margin-top: 140px;
   justify-items: center;
 }
 td,
